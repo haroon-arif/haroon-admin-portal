@@ -11,8 +11,9 @@ const nextConfig = {
         protocol: 'https',
         hostname: 'api.slingacademy.com',
         port: ''
-      }
-    ]
+      },
+    ],
+    domains: ['images.unsplash.com']
   },
   transpilePackages: ['geist']
 };
